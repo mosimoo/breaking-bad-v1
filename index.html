@@ -71,7 +71,7 @@
     <div class="flex border-b border-gray-200 mb-6 -mx-1 overflow-x-auto justify-between">
         <button class="tab-button flex-shrink-0" data-tab="four-step" onclick="showTab('four-step')">4 Step Method</button>
         <button class="tab-button flex-shrink-0" data-tab="single-cook" onclick="showTab('single-cook')">Range Finder</button>
-        <button class="tab-button active flex-shrink-0" data-tab="two-cook" onclick="showTab('two-cook')">Unlimited Method</button>
+        <button class="tab-button flex-shrink-0" data-tab="two-cook" onclick="showTab('two-cook')">Unlimited Method</button>
     </div>
 
     <!-- 4 Step Method Tab Content -->
@@ -85,7 +85,8 @@
             <div class="flex items-center justify-between p-3 bg-indigo-50 rounded-lg">
                 <label for="p1" class="font-medium text-indigo-800">Cook 1 (0-0-0):</label>
                 <div class="flex items-center space-x-2">
-                    <input type="number" id="p1" min="0" max="100" value="54"
+                    <!-- CLEARED VALUE -->
+                    <input type="number" id="p1" min="0" max="100" value=""
                            class="w-20 p-2 border border-indigo-300 rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500" required>
                     <span class="text-indigo-800 font-bold">%</span>
                 </div>
@@ -95,7 +96,8 @@
             <div class="flex items-center justify-between p-3 bg-indigo-50 rounded-lg">
                 <label for="p2" class="font-medium text-indigo-800">Cook 2 (10-0-0):</label>
                 <div class="flex items-center space-x-2">
-                    <input type="number" id="p2" min="0" max="100" value="64"
+                    <!-- CLEARED VALUE -->
+                    <input type="number" id="p2" min="0" max="100" value=""
                            class="w-20 p-2 border border-indigo-300 rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500" required>
                     <span class="text-indigo-800 font-bold">%</span>
                 </div>
@@ -105,7 +107,8 @@
             <div class="flex items-center justify-between p-3 bg-indigo-50 rounded-lg">
                 <label for="p3" class="font-medium text-indigo-800">Cook 3 (0-10-0):</label>
                 <div class="flex items-center space-x-2">
-                    <input type="number" id="p3" min="0" max="100" value="48"
+                    <!-- CLEARED VALUE -->
+                    <input type="number" id="p3" min="0" max="100" value=""
                            class="w-20 p-2 border border-indigo-300 rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500" required>
                     <span class="text-indigo-800 font-bold">%</span>
                 </div>
@@ -115,7 +118,8 @@
             <div class="flex items-center justify-between p-3 bg-indigo-50 rounded-lg">
                 <label for="p4" class="font-medium text-indigo-800">Cook 4 (0-0-10):</label>
                 <div class="flex items-center space-x-2">
-                    <input type="number" id="p4" min="0" max="100" value="67"
+                    <!-- CLEARED VALUE -->
+                    <input type="number" id="p4" min="0" max="100" value=""
                            class="w-20 p-2 border border-indigo-300 rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500" required>
                     <span class="text-indigo-800 font-bold">%</span>
                 </div>
@@ -176,7 +180,8 @@
                 <input type="number" id="bf_a3" min="0" max="10" value="0" placeholder="R3" readonly
                        class="w-1/5 p-2 border rounded-lg text-center bg-gray-200">
                 <span class="text-2xl font-light">=</span>
-                <input type="number" id="bf_pa" min="10" max="100" value="54" placeholder="%" 
+                <!-- CLEARED VALUE -->
+                <input type="number" id="bf_pa" min="10" max="100" value="" placeholder="%" 
                        class="w-1/5 p-2 border rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500">
                 <span class="text-indigo-800 font-bold self-center">%</span>
             </div>
@@ -191,7 +196,8 @@
                 <input type="number" id="bf_b3" min="0" max="10" value="0" placeholder="R3" readonly
                        class="w-1/5 p-2 border rounded-lg text-center bg-gray-200">
                 <span class="text-2xl font-light">=</span>
-                <input type="number" id="bf_pb" min="10" max="100" value="64" placeholder="%" 
+                <!-- CLEARED VALUE -->
+                <input type="number" id="bf_pb" min="10" max="100" value="" placeholder="%" 
                        class="w-1/5 p-2 border rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500">
                 <span class="text-indigo-800 font-bold self-center">%</span>
             </div>
@@ -206,7 +212,8 @@
                 <input type="number" id="bf_c3" min="0" max="10" value="0" placeholder="R3" readonly
                        class="w-1/5 p-2 border rounded-lg text-center bg-gray-200">
                 <span class="text-2xl font-light">=</span>
-                <input type="number" id="bf_pc" min="10" max="100" value="48" placeholder="%" 
+                <!-- CLEARED VALUE -->
+                <input type="number" id="bf_pc" min="10" max="100" value="" placeholder="%" 
                        class="w-1/5 p-2 border rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500">
                 <span class="text-indigo-800 font-bold self-center">%</span>
             </div>
@@ -221,7 +228,8 @@
                 <input type="number" id="bf_d3" min="0" max="10" value="10" placeholder="R3" readonly
                        class="w-1/5 p-2 border rounded-lg text-center bg-gray-200">
                 <span class="text-2xl font-light">=</span>
-                <input type="number" id="bf_pd" min="10" max="100" value="67" placeholder="%" 
+                <!-- CLEARED VALUE -->
+                <input type="number" id="bf_pd" min="10" max="100" value="" placeholder="%" 
                        class="w-1/5 p-2 border rounded-lg text-center font-mono focus:ring-2 focus:ring-indigo-500">
                 <span class="text-indigo-800 font-bold self-center">%</span>
             </div>
@@ -437,7 +445,7 @@
     }
 
     // --- Tab Management ---
-    let currentTab = 'two-cook'; // Setting default tab to the Ultimate Solver (now Unlimited)
+    let currentTab = 'four-step'; // Default tab set here
 
     function showTab(tabId) {
         currentTab = tabId;
@@ -811,8 +819,7 @@
 
     // Set initial tab and run the initial solve
     window.onload = function() {
-        showTab('two-cook');
-        solveBruteForce(); 
+        showTab('four-step'); // Now defaults to the 4 Step Method
     }
 </script>
 </body>
